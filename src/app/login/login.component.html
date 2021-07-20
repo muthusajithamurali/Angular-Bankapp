@@ -1,22 +1,23 @@
 <div class="container">
     <div class="left-pane">
-
     </div>
-    <div class="right-pane">
-        <h1>user login.</h1> 
-        <h5>{{aim}}</h5>
-        <input type="text" name="" (change)="accchange($event)" [value]="accnum" id="username" placeholder="username">
-    <input type="text" name="" (change)="pswdchange($event)" id="password" placeholder="password">
-    <!-- <input type="text" id="bal" placeholder="balance"> -->
-    <br>
-    <input type="submit" class="bttn" (onclick)="login()" value="sign in">
-    <input type="submit" class="bttn" onclick="window.location.href='index.html'" value="home">
-    <!-- <input type="submit" class="bttn" onclick="listAllUsers()" value="list users"> -->
-   
-    <!-- <button class="bttn" onclick="createUser()"></button>
-    <button class="bttn" onclick="listAllUsers()">list users</button>
-    <button class="bttn" onclick="bank.insideBank()">BankCheck</button> -->
+            <div class="right-pane">
+                <h4>Bank application login<h5>{{aim}}</h5></h4><br>
+                <form (ngsubmit)="login()">
+                    <input type="text" class="text" name="acno" [(ngModel)]="acno" id="accnotext"
+                        placeholder="Account number"><br>
+                    <input type="password" class="text" name="pswd" [(ngModel)]="pswd" id="pwdtext"
+                        placeholder="password"><br>
+                    <input type="submit" class="button butefct" value="login"><br>
+                </form>
+                <div class="line"></div>
+                <a class="textfp" routerLink="register">Sign up</a>
+                <div class="col-4"></div>
 
+
+            </div>
+
+        
+        
     </div>
-    
- </div>
+     

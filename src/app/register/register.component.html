@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <div class="main">
+                <h4>Bank application Register Form</h4><br>
+                <form (ngsubmit)="register()">
+                    <input type="text" class="text" name="uname" [(ngModel)]="uname" id="uname"
+                        placeholder="User Name"><br>
+                    <input type="text" class="text" name="acno" [(ngModel)]="acno" id="accnotext"
+                        placeholder="Account Number"><br>   
+                    <input type="password" class="text" name="pswd" [(ngModel)]="pswd" id="pwdtext"
+                        placeholder="password"><br>
+                    <input type="submit" class="button butefct" value="Register"><br>
+                </form>
+                
+
+
+            </div>
+
+        </div>
+        <div class="col-4"></div>
+    </div>
+</div>       

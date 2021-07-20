@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files*/ 
 body{
     background-color: rgb(102, 80, 52);
     padding: 20px;
@@ -18,7 +18,7 @@ body{
     /* background-color: teal; */
     height: auto;
     width: 50%;
-    background-image: url(card.jpg);
+    /* background-image: url(card.jpg);  */
     background-size: cover;
     background-position:center center;
 }
@@ -32,15 +32,15 @@ body{
     font-family: serif;
     font-weight: 500;
 }
-.right-pane input[type="text"]
+/* .right-pane input
 {
     height: 40px;
     width: 60%;
     margin-bottom: 8px;
     border: 0;
     border-bottom: 1px solid black;
-}
-input[type="submit"]{
+} */
+ input[type="submit"]{
   
     
     padding: 8px 10px;
@@ -49,7 +49,7 @@ input[type="submit"]{
     background-color: #4CAF50;
     color: rgb(255, 255, 255);
 
-}
+} 
 [type="submit"].lgn{
     background-color: #0b648d;
     border: 1px solid rgba(5, 59, 131, 0.685);
